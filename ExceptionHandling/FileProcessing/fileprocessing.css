@@ -1,0 +1,43 @@
+/* 
+
+using rgba 
+we can give the rgb values upto 255 
+ a refers to alpha(opacity) default value is 1 we can give alpha value from (0 to 0.9) 
+this will apply to the div which has rgba classname
+div.rgba{
+    background-color: rgba(255,20, 30);
+}
+
+we can give background image as linear-gradient , radial-gradient , repeating-linear-gradient,repeating-radial-gradient,conic-gradient,repeating-conic-gradient */
+/* we cannot use rgb with backgound image
+we can give multiple urls for background-img
+ we can we background-attachment as fixed or scroll 
+div.background-img{
+    justify-content: center;
+    height: 1000px;
+   align-items: center;
+   width: 50%;
+   background-repeat: no-repeat;
+    background-image: rgb(244,30,30); 
+    background-image: url("https://images.unsplash.com/photo-1631631480669-535cc43f2327?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
+    background-image: linear-gradient(red, yellow, green); 
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+   background-attachment: fixed;
+   background-attachment: scroll; 
+
+}
+by using text-align: justify we will get perfect spaces around the words  
+ text-indent: Specifies the indentation of the first line in a text-block 
+direction: rtl; : text starts from the right side
+
+div.justify{
+    text-align: justify;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-indent	:70px
+} */
+
+.card{
+    min-height: 100px;
+    max-width: 500px;
+}
